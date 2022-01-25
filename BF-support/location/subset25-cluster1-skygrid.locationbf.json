@@ -1,0 +1,280 @@
+{
+  "axisAttributes": {
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+  },
+  "lineAttributes": [
+    {
+      "id": "bayesFactor",
+      "scale": "linear",
+      "range": [
+        0.81,
+        67.82
+      ]
+    },
+    {
+      "id": "posteriorProbability",
+      "scale": "linear",
+      "range": [
+        0.2,
+        0.95
+      ]
+    }
+  ],
+  "pointAttributes": [
+    {
+      "id": "xCoordinate",
+      "scale": "linear",
+      "range": [
+        32.5825,
+        39.66489
+      ]
+    },
+    {
+      "id": "yCoordinate",
+      "scale": "linear",
+      "range": [
+        -4.04443,
+        4.9E-324
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "coast",
+      "coordinate": {
+        "xCoordinate": 39.66489,
+        "yCoordinate": -4.04443,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "nyanza",
+      "coordinate": {
+        "xCoordinate": 34.767956,
+        "yCoordinate": -0.091702,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "rvalley",
+      "coordinate": {
+        "xCoordinate": 36.08,
+        "yCoordinate": -0.3031,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "Ref",
+      "coordinate": {
+        "xCoordinate": 32.5825,
+        "yCoordinate": -0.3476,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "nairobi",
+      "coordinate": {
+        "xCoordinate": 36.825417,
+        "yCoordinate": -1.291528,
+        "altitude": 0.0
+      }
+    }
+  ],
+  "layers": [
+    {
+      "type": "tree",
+      "id": "C:\\Users\\gmakau\\Desktop\\Nationwide_study\\Transmission_networks\\A1_KE_clusters\\A1_cluster_analysis_after_sensitivity_analysis\\sensitivity_test_datasets\\location_2\\BF-summaries-35-clusters\\location\\subset25-cluster1-skygrid.location.rates.log",
+      "description": "BF graph layer",
+      "points": [
+        {
+          "id": "94832278",
+          "locationId": "coast",
+          "attributes": {}
+        },
+        {
+          "id": "82035",
+          "locationId": "Ref",
+          "attributes": {}
+        },
+        {
+          "id": "1031015329",
+          "locationId": "nyanza",
+          "attributes": {}
+        },
+        {
+          "id": "1718660442",
+          "locationId": "nairobi",
+          "attributes": {}
+        },
+        {
+          "id": "1567350353",
+          "locationId": "rvalley",
+          "attributes": {}
+        }
+      ],
+      "lines": [
+        {
+          "startPointId": "94832278",
+          "endPointId": "1031015329",
+          "attributes": {
+            "bayesFactor": 1.2020609964974989,
+            "posteriorProbability": 0.26930341073214087
+          }
+        },
+        {
+          "startPointId": "94832278",
+          "endPointId": "1567350353",
+          "attributes": {
+            "bayesFactor": 1.2040979269777348,
+            "posteriorProbability": 0.26963670703255194
+          }
+        },
+        {
+          "startPointId": "94832278",
+          "endPointId": "82035",
+          "attributes": {
+            "bayesFactor": 0.8460726957218399,
+            "posteriorProbability": 0.20597711365403845
+          }
+        },
+        {
+          "startPointId": "94832278",
+          "endPointId": "1718660442",
+          "attributes": {
+            "bayesFactor": 0.8135722091282596,
+            "posteriorProbability": 0.1996444839462282
+          }
+        },
+        {
+          "startPointId": "1031015329",
+          "endPointId": "1567350353",
+          "attributes": {
+            "bayesFactor": 1.0531433362096636,
+            "posteriorProbability": 0.2440839906677036
+          }
+        },
+        {
+          "startPointId": "1031015329",
+          "endPointId": "82035",
+          "attributes": {
+            "bayesFactor": 1.347833877809632,
+            "posteriorProbability": 0.2924119542273081
+          }
+        },
+        {
+          "startPointId": "1031015329",
+          "endPointId": "1718660442",
+          "attributes": {
+            "bayesFactor": 1.0844415040761433,
+            "posteriorProbability": 0.24952783024108433
+          }
+        },
+        {
+          "startPointId": "1567350353",
+          "endPointId": "82035",
+          "attributes": {
+            "bayesFactor": 1.2878328256806644,
+            "posteriorProbability": 0.28307965781579825
+          }
+        },
+        {
+          "startPointId": "1567350353",
+          "endPointId": "1718660442",
+          "attributes": {
+            "bayesFactor": 1.0895945785289103,
+            "posteriorProbability": 0.2504166203755138
+          }
+        },
+        {
+          "startPointId": "82035",
+          "endPointId": "1718660442",
+          "attributes": {
+            "bayesFactor": 33.480714515696775,
+            "posteriorProbability": 0.9112320853238529
+          }
+        },
+        {
+          "startPointId": "1031015329",
+          "endPointId": "94832278",
+          "attributes": {
+            "bayesFactor": 1.3879851542933956,
+            "posteriorProbability": 0.29852238640151096
+          }
+        },
+        {
+          "startPointId": "1567350353",
+          "endPointId": "94832278",
+          "attributes": {
+            "bayesFactor": 1.8843140500766158,
+            "posteriorProbability": 0.36618153538495724
+          }
+        },
+        {
+          "startPointId": "82035",
+          "endPointId": "94832278",
+          "attributes": {
+            "bayesFactor": 67.82092616410881,
+            "posteriorProbability": 0.9541162093100767
+          }
+        },
+        {
+          "startPointId": "1718660442",
+          "endPointId": "94832278",
+          "attributes": {
+            "bayesFactor": 3.3848462134981037,
+            "posteriorProbability": 0.509276747028108
+          }
+        },
+        {
+          "startPointId": "1567350353",
+          "endPointId": "1031015329",
+          "attributes": {
+            "bayesFactor": 1.2383225636232298,
+            "posteriorProbability": 0.2751916453727364
+          }
+        },
+        {
+          "startPointId": "82035",
+          "endPointId": "1031015329",
+          "attributes": {
+            "bayesFactor": 10.913771777550995,
+            "posteriorProbability": 0.7699144539495612
+          }
+        },
+        {
+          "startPointId": "1718660442",
+          "endPointId": "1031015329",
+          "attributes": {
+            "bayesFactor": 2.1429326348595,
+            "posteriorProbability": 0.3965114987223642
+          }
+        },
+        {
+          "startPointId": "82035",
+          "endPointId": "1567350353",
+          "attributes": {
+            "bayesFactor": 16.34905885076705,
+            "posteriorProbability": 0.8336851460948783
+          }
+        },
+        {
+          "startPointId": "1718660442",
+          "endPointId": "1567350353",
+          "attributes": {
+            "bayesFactor": 1.950087343758032,
+            "posteriorProbability": 0.3741806465948228
+          }
+        },
+        {
+          "startPointId": "1718660442",
+          "endPointId": "82035",
+          "attributes": {
+            "bayesFactor": 1.6313099200402994,
+            "posteriorProbability": 0.3334073991778691
+          }
+        }
+      ]
+    }
+  ]
+}

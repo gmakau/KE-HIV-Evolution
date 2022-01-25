@@ -1,0 +1,97 @@
+{
+  "axisAttributes": {
+    "xCoordinate": "xCoordinate",
+    "yCoordinate": "yCoordinate"
+  },
+  "lineAttributes": [
+    {
+      "id": "bayesFactor",
+      "scale": "linear",
+      "range": [
+        1.0120897984613917,
+        1631.09
+      ]
+    },
+    {
+      "id": "posteriorProbability",
+      "scale": "linear",
+      "range": [
+        0.8481279857793579,
+        1.0
+      ]
+    }
+  ],
+  "pointAttributes": [
+    {
+      "id": "xCoordinate",
+      "scale": "linear",
+      "range": [
+        0.0,
+        1.1013513260924308E-15
+      ]
+    },
+    {
+      "id": "yCoordinate",
+      "scale": "linear",
+      "range": [
+        -8.993216059187306,
+        8.993216059187306
+      ]
+    }
+  ],
+  "locations": [
+    {
+      "id": "HET",
+      "coordinate": {
+        "xCoordinate": 0.0,
+        "yCoordinate": 8.993216059187306,
+        "altitude": 0.0
+      }
+    },
+    {
+      "id": "IDU",
+      "coordinate": {
+        "xCoordinate": 1.1013513260924308E-15,
+        "yCoordinate": -8.993216059187306,
+        "altitude": 0.0
+      }
+    }
+  ],
+  "layers": [
+    {
+      "type": "tree",
+      "id": "C:\\Users\\gmakau\\Desktop\\Nationwide_study\\Transmission_networks\\A1_KE_clusters\\A1_cluster_analysis_after_sensitivity_analysis\\sensitivity_test_datasets\\location_2\\BF-summaries-35-clusters\\Risk\\subset2-cluster1-skygrid.risk.rates.log",
+      "description": "BF graph layer",
+      "points": [
+        {
+          "id": "71415",
+          "locationId": "HET",
+          "attributes": {}
+        },
+        {
+          "id": "72346",
+          "locationId": "IDU",
+          "attributes": {}
+        }
+      ],
+      "lines": [
+        {
+          "startPointId": "71415",
+          "endPointId": "72346",
+          "attributes": {
+            "bayesFactor": 1.0120897984613917,
+            "posteriorProbability": 0.8481279857793579
+          }
+        },
+        {
+          "startPointId": "72346",
+          "endPointId": "71415",
+          "attributes": {
+            "bayesFactor": 1631.0899646932585,
+            "posteriorProbability": 1.0
+          }
+        }
+      ]
+    }
+  ]
+}
